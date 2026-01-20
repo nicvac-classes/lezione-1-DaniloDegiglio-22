@@ -7,7 +7,7 @@ Prepariamo ad esempio l'ambiente per risolvere il problema "Fossili"
 - Login su [training.olinfo.it](https://training.olinfo.it)
 - Click su: Risolvi i problemi / Territoriali
 - Cercare "fossili" / Click "Antichi fossili"
-
+ 
 **Prima ancora di leggere e comprendere il problema**, prepariamo l'ambiente di sviluppo.
 ### Prepariamo l'ambiente
 - Dalla pagina del problema "Antichi fossili", scaricare il template python "fossili.py" nella cartella principale di questo progetto.
