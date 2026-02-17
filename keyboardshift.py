@@ -6,7 +6,7 @@ import sys
 # se preferisci leggere e scrivere da file
 # ti basta decommentare le seguenti due righe:
 
-#sys.stdin = open('keyboard_input2.txt' )
+sys.stdin = open('keyboard_input2.txt' )
 sys.stdout = open('output.txt', 'w')
 
 # input data
