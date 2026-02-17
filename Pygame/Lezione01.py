@@ -4,6 +4,7 @@ pygame.init()
 screen = pygame.display.set_mode((640,480))
 
 pygame.display.set_caption("Test Pygame")
+clock = pygame.time.Clock()
 
 x = 320
 y = 240
@@ -26,7 +27,8 @@ while running:
     elif keys[pygame.K_DOWN]:
         y += speed
 
-    screen.fill((30, 30 , 50))
+    screen.fill((35, 35 , 50))
     pygame.draw.circle(screen,(255,100,100),(x,y), 30)
+    clock.tick(60)
     
     pygame.display.flip()
